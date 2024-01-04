@@ -1,0 +1,48 @@
+.about-container {
+    margin-right: 10px;
+  }
+  .about-heading {
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+    align-self: flex-start;
+  }
+  .about-paragraph {
+    color: black;
+    font-size: 45px;
+    font-family: Italic;
+    font-weight: bold;
+    align-self: flex-start;
+  }
+  .bg-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+  }
+  .length-paragraph {
+    color: gray;
+    font-size: 20px;
+  }
+  .btn-conter {
+    display: flex;
+    align-self: flex-start;
+  }
+  .project-btn {
+    background-color: orange;
+    color: black;
+    border: transparent;
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 9px;
+    margin-right: 20px;
+  }
+  .linkdin-btn {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 9px;
+  }
+  
