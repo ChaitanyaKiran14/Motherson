@@ -1,4 +1,3 @@
-// E:\Projects\Motherson\personalportfolio\src\Components\Projects\index.jsx
 import React from 'react';
 
 const Projects = ({ projectsData }) => {
