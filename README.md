@@ -1,4 +1,3 @@
-```markdown
 ### Personal Portfolio
 
 This is a personal portfolio website showcasing the work of Madelyn Torff, a UI/UX designer. The portfolio includes information about Madelyn, her projects, and ways to connect with her.
