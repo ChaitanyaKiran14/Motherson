@@ -5,7 +5,7 @@ import Projects from '../Projects';
 import Footer from '../Footer';
 import './index.css'
 
-export function LandinngPageOne() {
+export function LandingPage() {
   return (
     <div className="w-full">
       <section id="home">
@@ -17,20 +17,23 @@ export function LandinngPageOne() {
                 <h1 className="about-heading">UI/UX DESIGNER</h1>
                 <p className="about-paragraph">Hello, my name is Madelyn Torff</p>
                 <p className="length-paragraph mb-8">
-                  Short text with details about you, what you do, or your professional career. 
-                  You can add more information on the about page.
+                I'm a UX/UI designer who strives to create frictionless user experiences that elevate brands
+                <br/>
+                <br/>
+
+                With a work history  rooted in brand marketing, I'm passionate about pushing products to the next level through a design process that included data-backed user research and visually stunning user-focussed UI.
                 </p>
                 <div className="btn-conter">
-                  <button to="projects" className="btn border-t-neutral-950 project-btn">Projects</button>
-                  <button className="linkdin-btn">Linkedin</button>
+                  <button to="projects" className="btn border-t-neutral-950 project-btn w-40 font-semibold">Projects</button>
+                  <button className="linkdin-btn w-40 font-semibold">Linkedin</button>
                 </div>
               </div>
               
             </div>
             <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6 bg-container1">
               <img
-                className="aspect-[3/2] bg-gray-50 object-cover lg:aspect-[4/3] lg:h-[700px] xl:aspect-[16/9]"
-                src="https://www.freepik.com/free-photo/young-woman-holding-bunch-flowers_1211898.htm#query=girl%20with%20flower%20image%20for%20protofile&position=9&from_view=search&track=ais&uuid=a64661a4-4709-48dc-b451-f55c4c6541d7"
+                className="aspect-[3/2] bg-gray-50 object-cover lg:aspect-[4/3] lg:h-[600px] xl:aspect-[16/9]"
+                src="https://th.bing.com/th/id/OIG.NaMd568P5eqKSV2uNHj9?w=1024&h=1024&rs=1&pid=ImgDetMain"
                 alt="flower"
               />
             </div>
