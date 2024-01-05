@@ -16,7 +16,7 @@ export function LandinngPageOne() {
               <div className="about-container">
                 <h1 className="about-heading">UI/UX DESIGNER</h1>
                 <p className="about-paragraph">Hello, my name is Madelyn Torff</p>
-                <p className="length-paragraph">
+                <p className="length-paragraph mb-8">
                   Short text with details about you, what you do, or your professional career. 
                   You can add more information on the about page.
                 </p>

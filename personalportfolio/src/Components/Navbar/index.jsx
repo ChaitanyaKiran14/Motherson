@@ -43,7 +43,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between">
                   <div className="inline-flex items-center space-x-2">
                     <span></span>
-                    <span className="font-bold">Madelyn Troff</span>
+                    <span className="font-bold h-5">Madelyn Troff</span>
                   </div>
                   <div className="-mr-2">
                     <button
