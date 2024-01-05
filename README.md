@@ -42,7 +42,7 @@ This is a personal portfolio website showcasing the work of Madelyn Torff, a UI/
 1. Start the development server:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
 2. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the portfolio.
