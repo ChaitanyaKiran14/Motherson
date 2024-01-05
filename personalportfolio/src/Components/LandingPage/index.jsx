@@ -7,7 +7,7 @@ import './index.css'
 
 export function LandingPage() {
   return (
-    <div className="w-full">
+    <div className="w-full container">
       <section id="home">
         <div className="relative w-full bg-white">
           <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
@@ -41,15 +41,15 @@ export function LandingPage() {
         </div>
       </section>
 
-      <section id="addProject">
+      <section id="addProject" className="mt-8">
         <AddProject />
       </section>
 
-      <section id="projects">
+      <section id="projects" className="mt-8">
         <Projects />
       </section>
 
-      <section id="footer">
+      <section id="footer" >
         <Footer />
       </section>
     </div>

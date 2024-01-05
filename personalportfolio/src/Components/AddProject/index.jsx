@@ -1,17 +1,16 @@
+// E:\Projects\Motherson\personalportfolio\src\Components\AddProject\index.jsx
 import React, { useState } from 'react';
 import Projects from '../Projects';
 import { v4 as uuid } from 'uuid';
 
-
 const initialProjectsData = [
   {
     id: uuid(),
-    projectName: 'Project Name',
-    projectLink: 'https://example.com/project1',
+    projectName: 'Jobby App',
+    projectLink: 'https://ckjobbyapp.ccbp.tech/login',
     imageUrl: 'https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
-    description: 'I created this personal project to show how to create an interface in Figma using a Portfolio as an example.',
+    description: ' Developed a comprehensive job search solution, Jobby App.Designed pages for Login, Home, Jobs, and Job item details with React components and form inputs.Secured user data with JWT tokens, REST API calls, and local storage',
   },
-  
 ];
 
 const AddProject = () => {
@@ -109,7 +108,7 @@ const AddProject = () => {
           Add
         </button>
       </form>
-      
+
       <Projects projectsData={projectsData} />
     </div>
   );

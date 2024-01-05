@@ -1,12 +1,18 @@
+// E:\Projects\Motherson\personalportfolio\src\Components\Projects\index.jsx
 import React from 'react';
 
-export default function Projects({ projectsData }) {
+const Projects = ({ projectsData }) => {
+  const hasProjects = projectsData && projectsData.length > 0;
+
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="text-4xl font-bold font-serif text-black-500 mb-6 border-b-4 border-yellow-500 pb-2">
-        Projects
-      </h1>
-      {projectsData ? (
+    <div className="flex flex-col items-center justify-center mt-8">
+      {hasProjects && (
+        <h1 className="text-4xl font-bold font-serif text-black-500 mb-6 border-b-4 border-yellow-500 pb-2">
+          Projects
+        </h1>
+      )}
+      
+      {hasProjects ? (
         projectsData.map((project) => (
           <div key={project.id} className="flex flex-col items-center rounded-md border max-w-4xl md:flex-row mb-4">
             <div className="w-full">
@@ -32,8 +38,10 @@ export default function Projects({ projectsData }) {
           </div>
         ))
       ) : (
-        <p>No projects available</p>
+        <p className="mt-4 text-gray-600">Your Projects will be displayed here</p>
       )}
     </div>
   );
-}
+};
+
+export default Projects;
