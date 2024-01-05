@@ -1,4 +1,3 @@
-// E:\Projects\Motherson\personalportfolio\src\Components\AddProject\index.jsx
 import React, { useState } from 'react';
 import Projects from '../Projects';
 import { v4 as uuid } from 'uuid';
@@ -11,6 +10,15 @@ const initialProjectsData = [
     imageUrl: 'https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
     description: ' Developed a comprehensive job search solution, Jobby App.Designed pages for Login, Home, Jobs, and Job item details with React components and form inputs.Secured user data with JWT tokens, REST API calls, and local storage',
   },
+  {
+    id: uuid(),
+    projectName: 'Runner Application',
+    projectLink: 'https://playful-marshmallow-e228be.netlify.app/',
+    imageUrl: 'https://images.pexels.com/photos/3764538/pexels-photo-3764538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description: ' Developed a comprehensive live racinng track, where users can compete with other by  entering theit names and speed',
+  },
+
+
 ];
 
 const AddProject = () => {
